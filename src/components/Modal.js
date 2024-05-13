@@ -5,8 +5,8 @@ function Modal({ handleShowModal }) {
       onClick={handleShowModal}
     >
       <div className="fixed inset-0 bg-black opacity-35"></div>
-      <div className=" bg-white p-60 py-48 rounded-xl z-10 absolute"></div>
-      <div className="w-2/6 h-3/6 relative  z-50">
+      <div className=" bg-white p-60 py-48 md:px-60 px-56  w-10/12 md:w-2/6 rounded-xl z-10 absolute"></div>
+      <div className="w-10/12 md:w-2/6 h-3/6 relative  z-50">
         <div className=" absolute w-full h-full">
           <iframe
             title="video"
